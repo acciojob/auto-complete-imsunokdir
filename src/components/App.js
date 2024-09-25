@@ -18,7 +18,7 @@ const App = () => {
 
   useEffect(() => {
     if (inputValue.trim() === "") {
-      setSuggestion([]);
+      setSuggestion(fruits);
       return;
     }
     const fetchSuggestion = setTimeout(() => {
