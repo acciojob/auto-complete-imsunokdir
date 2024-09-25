@@ -39,7 +39,6 @@ const App = () => {
         onChange={(e) => setInputValue(e.target.value)}
       />
       <ul>
-        <li>test</li>
         {suggestion.length > 0 &&
           suggestion.map((fruit, i) => {
             return <li key={i}>{fruit}</li>;
